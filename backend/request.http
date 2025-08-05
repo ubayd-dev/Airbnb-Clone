@@ -1,0 +1,27 @@
+# GET ALL USERS
+GET http://localhost:5001/users/
+###
+
+#GET A SINGLE USER
+GET http://localhost:5001/users/2
+###
+
+#GET ALL BOOKINGS
+http://localhost:5001/bookings
+###
+
+#GET ALL BOOKINGS FOR USER
+http://localhost:5001/users/1
+###
+
+http://localhost:5001/listings
+###
+
+
+# POST http://localhost:5001/posts
+# content-type: application/json
+
+# {
+#     "title": "airbnb clone",
+#     "author": "ubayd-dev"
+# }
