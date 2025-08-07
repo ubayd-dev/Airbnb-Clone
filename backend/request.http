@@ -6,6 +6,16 @@ GET http://localhost:5001/users/
 GET http://localhost:5001/users/2
 ###
 
+#REGISTER A USER
+POST http://localhost:5001/register
+content-type: application/json
+
+{
+    "email": "oliverhashbrown@mail.com",
+    "password": "bestPassw0rd"    
+}   
+###
+
 #GET ALL BOOKINGS
 http://localhost:5001/bookings
 ###

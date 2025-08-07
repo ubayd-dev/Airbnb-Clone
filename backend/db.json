@@ -11,6 +11,11 @@
       "name": "Cristiano Ronaldo",
       "email": "santiagobernabeu.co.za",
       "phone": "090-909-909"
+    },
+    {
+      "email": "oliverhashbrown@mail.com",
+      "password": "$2a$10$QhTI53akNQDdRicrw1m2C.6y8nHT/o.4E9as5fqdqtdnGN/JpE9pW",
+      "id": 3
     }
   ],
   "bookings": [
