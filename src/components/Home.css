@@ -1,0 +1,11 @@
+/* .home_section{
+    display: flex;
+    padding: 30px;
+} */
+
+.home_section {
+  display: flex;
+  justify-content: space-between; /* even spacing between cards */
+  flex-wrap: wrap; /* wrap to next line if not enough space */
+  padding: 20px;
+}

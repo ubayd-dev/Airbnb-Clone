@@ -30,7 +30,7 @@ margin-left: 20px;
 
 .header_center > input{
     border: none;
-    /* width: 250px; */
+    width: 250px; 
     padding: 10px;
     outline-width: 0;
 }

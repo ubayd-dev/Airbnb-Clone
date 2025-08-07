@@ -2,6 +2,7 @@
 import './App.css';
 import Header from "./components/layout/Header"
 import Home from "./components/Home"
+import Footer from './components/layout/Footer'
 
 
 const  App = () => {
@@ -9,7 +10,8 @@ const  App = () => {
     <div className="App">
 
       <Header />
-      <Home/>
+      <Home />
+      <Footer/>
   
 
     </div>
