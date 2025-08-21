@@ -16,6 +16,10 @@ content-type: application/json
 }   
 ###
 
+#SIGN IN 
+POST http://localhost:5001/login
+content-type: application/json
+
 #GET ALL BOOKINGS
 http://localhost:5001/bookings
 ###

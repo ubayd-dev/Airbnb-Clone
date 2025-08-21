@@ -23,15 +23,18 @@ const Home = () => {
       ) : error ? (
         <h3>{error}</h3>
       ) : (
-            <div className="home_section">
-              <Card
-          src="https://a0.muscache.com/im/pictures/lombard/MtTemplate-105665-media_library/original/2dbc75ca-aa53-45b6-9080-26e64487c4b6.jpeg?im_w=1920"
-          title="Online Experiences"
-          description="Unique activities we can do together, led by a world of hosts."
+        <div className="home_section">
+          {listings.map((listing) => (
+            <Card
+              src={listing.img}
+              title={listing.title}
+              description={listing.description}
+              price={listing.price}
             />
-            </div>
+          ))}
+        </div>
       )}
-      <div className="home_section">
+      {/* <div className="home_section">
         <Card
           src="https://a0.muscache.com/im/pictures/lombard/MtTemplate-105665-media_library/original/2dbc75ca-aa53-45b6-9080-26e64487c4b6.jpeg?im_w=1920"
           title="Online Experiences"
@@ -73,7 +76,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="home_section"></div>
+      <div className="home_section"></div> */}
     </div>
   );
 };

@@ -8,7 +8,7 @@
   box-shadow: 8px 6px 18px -9px rgba(0, 0, 0, 0.75);
      /* Layout additions */
   flex: 1 1 30%;
-  max-width: 32%;
+  /* max-width: 32%; */
   box-sizing: border-box;
 }
 .cards:hover {

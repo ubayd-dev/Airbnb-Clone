@@ -29,6 +29,9 @@
   "listings": [
     {
       "id": 1,
+      "img": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-105665-media_library/original/2dbc75ca-aa53-45b6-9080-26e64487c4b6.jpeg?im_w=1920",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
@@ -39,6 +42,25 @@
       "sq_ft": 4.2,
       "email": "test@test.com",
       "userId": 2
+    },
+        {
+      "id": 2,
+         "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-584788471325096420/original/cdf60bab-3f58-4e9d-8746-5f4c8f50c304.jpeg?im_w=1200",
+      "title": "Entire home in Overstrand Local Municipality, South Africa",
+      "description": "6 guests 3bedrooms  4beds 3.5baths",
+       "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Jannssens Street",
+      "city": "Cape Town",
+      "street": "Queens",
+      "price": "3200",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
     }
   ]
 }
+
+
+    
